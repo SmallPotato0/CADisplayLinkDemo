@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043B7AC41CB4B67E003BC3DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B7AC31CB4B67E003BC3DD /* main.m */; };
+		043B7AC71CB4B67E003BC3DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B7AC61CB4B67E003BC3DD /* AppDelegate.m */; };
+		043B7ACA1CB4B67E003BC3DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B7AC91CB4B67E003BC3DD /* ViewController.m */; };
+		043B7ACD1CB4B67E003BC3DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043B7ACB1CB4B67E003BC3DD /* Main.storyboard */; };
+		043B7ACF1CB4B67E003BC3DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043B7ACE1CB4B67E003BC3DD /* Assets.xcassets */; };
+		043B7AD21CB4B67E003BC3DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043B7AD01CB4B67E003BC3DD /* LaunchScreen.storyboard */; };
+		043B7ADD1CB4B67E003BC3DD /* CADisplayLinkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B7ADC1CB4B67E003BC3DD /* CADisplayLinkDemoTests.m */; };
+		043B7AE81CB4B67E003BC3DD /* CADisplayLinkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B7AE71CB4B67E003BC3DD /* CADisplayLinkDemoUITests.m */; };
+		043B7B0B1CB4B692003BC3DD /* back2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 043B7AF61CB4B692003BC3DD /* back2.jpg */; };
+		043B7B0C1CB4B692003BC3DD /* DOVE 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7AF81CB4B692003BC3DD /* DOVE 0.png */; };
+		043B7B0D1CB4B692003BC3DD /* DOVE 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7AF91CB4B692003BC3DD /* DOVE 9.png */; };
+		043B7B0E1CB4B692003BC3DD /* DOVE 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7AFA1CB4B692003BC3DD /* DOVE 10.png */; };
+		043B7B0F1CB4B692003BC3DD /* DOVE 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7AFB1CB4B692003BC3DD /* DOVE 11.png */; };
+		043B7B101CB4B692003BC3DD /* DOVE 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7AFC1CB4B692003BC3DD /* DOVE 12.png */; };
+		043B7B111CB4B692003BC3DD /* DOVE 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7AFD1CB4B692003BC3DD /* DOVE 13.png */; };
+		043B7B121CB4B692003BC3DD /* DOVE 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7AFE1CB4B692003BC3DD /* DOVE 14.png */; };
+		043B7B131CB4B692003BC3DD /* DOVE 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7AFF1CB4B692003BC3DD /* DOVE 15.png */; };
+		043B7B141CB4B692003BC3DD /* DOVE 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7B001CB4B692003BC3DD /* DOVE 16.png */; };
+		043B7B151CB4B692003BC3DD /* DOVE 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7B011CB4B692003BC3DD /* DOVE 17.png */; };
+		043B7B161CB4B692003BC3DD /* DOVE 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7B021CB4B692003BC3DD /* DOVE 1.png */; };
+		043B7B171CB4B692003BC3DD /* DOVE 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7B031CB4B692003BC3DD /* DOVE 2.png */; };
+		043B7B181CB4B692003BC3DD /* DOVE 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7B041CB4B692003BC3DD /* DOVE 3.png */; };
+		043B7B191CB4B692003BC3DD /* DOVE 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7B051CB4B692003BC3DD /* DOVE 4.png */; };
+		043B7B1A1CB4B692003BC3DD /* DOVE 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7B061CB4B692003BC3DD /* DOVE 5.png */; };
+		043B7B1B1CB4B692003BC3DD /* DOVE 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7B071CB4B692003BC3DD /* DOVE 6.png */; };
+		043B7B1C1CB4B692003BC3DD /* DOVE 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7B081CB4B692003BC3DD /* DOVE 7.png */; };
+		043B7B1D1CB4B692003BC3DD /* DOVE 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7B091CB4B692003BC3DD /* DOVE 8.png */; };
+		043B7B1E1CB4B692003BC3DD /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B7B0A1CB4B692003BC3DD /* player.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043B7AD91CB4B67E003BC3DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043B7AB71CB4B67E003BC3DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043B7ABE1CB4B67E003BC3DD;
+			remoteInfo = CADisplayLinkDemo;
+		};
+		043B7AE41CB4B67E003BC3DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043B7AB71CB4B67E003BC3DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043B7ABE1CB4B67E003BC3DD;
+			remoteInfo = CADisplayLinkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043B7ABF1CB4B67E003BC3DD /* CADisplayLinkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CADisplayLinkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043B7AC31CB4B67E003BC3DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043B7AC51CB4B67E003BC3DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043B7AC61CB4B67E003BC3DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043B7AC81CB4B67E003BC3DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043B7AC91CB4B67E003BC3DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043B7ACC1CB4B67E003BC3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043B7ACE1CB4B67E003BC3DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043B7AD11CB4B67E003BC3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043B7AD31CB4B67E003BC3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043B7AD81CB4B67E003BC3DD /* CADisplayLinkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CADisplayLinkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043B7ADC1CB4B67E003BC3DD /* CADisplayLinkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkDemoTests.m; sourceTree = "<group>"; };
+		043B7ADE1CB4B67E003BC3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043B7AE31CB4B67E003BC3DD /* CADisplayLinkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CADisplayLinkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043B7AE71CB4B67E003BC3DD /* CADisplayLinkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkDemoUITests.m; sourceTree = "<group>"; };
+		043B7AE91CB4B67E003BC3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043B7AF61CB4B692003BC3DD /* back2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back2.jpg; sourceTree = "<group>"; };
+		043B7AF81CB4B692003BC3DD /* DOVE 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 0.png"; sourceTree = "<group>"; };
+		043B7AF91CB4B692003BC3DD /* DOVE 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 9.png"; sourceTree = "<group>"; };
+		043B7AFA1CB4B692003BC3DD /* DOVE 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 10.png"; sourceTree = "<group>"; };
+		043B7AFB1CB4B692003BC3DD /* DOVE 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 11.png"; sourceTree = "<group>"; };
+		043B7AFC1CB4B692003BC3DD /* DOVE 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 12.png"; sourceTree = "<group>"; };
+		043B7AFD1CB4B692003BC3DD /* DOVE 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 13.png"; sourceTree = "<group>"; };
+		043B7AFE1CB4B692003BC3DD /* DOVE 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 14.png"; sourceTree = "<group>"; };
+		043B7AFF1CB4B692003BC3DD /* DOVE 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 15.png"; sourceTree = "<group>"; };
+		043B7B001CB4B692003BC3DD /* DOVE 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 16.png"; sourceTree = "<group>"; };
+		043B7B011CB4B692003BC3DD /* DOVE 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 17.png"; sourceTree = "<group>"; };
+		043B7B021CB4B692003BC3DD /* DOVE 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 1.png"; sourceTree = "<group>"; };
+		043B7B031CB4B692003BC3DD /* DOVE 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 2.png"; sourceTree = "<group>"; };
+		043B7B041CB4B692003BC3DD /* DOVE 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 3.png"; sourceTree = "<group>"; };
+		043B7B051CB4B692003BC3DD /* DOVE 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 4.png"; sourceTree = "<group>"; };
+		043B7B061CB4B692003BC3DD /* DOVE 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 5.png"; sourceTree = "<group>"; };
+		043B7B071CB4B692003BC3DD /* DOVE 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 6.png"; sourceTree = "<group>"; };
+		043B7B081CB4B692003BC3DD /* DOVE 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 7.png"; sourceTree = "<group>"; };
+		043B7B091CB4B692003BC3DD /* DOVE 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DOVE 8.png"; sourceTree = "<group>"; };
+		043B7B0A1CB4B692003BC3DD /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043B7ABC1CB4B67E003BC3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043B7AD51CB4B67E003BC3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043B7AE01CB4B67E003BC3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043B7AB61CB4B67E003BC3DD = {
+			isa = PBXGroup;
+			children = (
+				043B7AC11CB4B67E003BC3DD /* CADisplayLinkDemo */,
+				043B7ADB1CB4B67E003BC3DD /* CADisplayLinkDemoTests */,
+				043B7AE61CB4B67E003BC3DD /* CADisplayLinkDemoUITests */,
+				043B7AC01CB4B67E003BC3DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043B7AC01CB4B67E003BC3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043B7ABF1CB4B67E003BC3DD /* CADisplayLinkDemo.app */,
+				043B7AD81CB4B67E003BC3DD /* CADisplayLinkDemoTests.xctest */,
+				043B7AE31CB4B67E003BC3DD /* CADisplayLinkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043B7AC11CB4B67E003BC3DD /* CADisplayLinkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				043B7AF51CB4B692003BC3DD /* temp-image */,
+				043B7AC51CB4B67E003BC3DD /* AppDelegate.h */,
+				043B7AC61CB4B67E003BC3DD /* AppDelegate.m */,
+				043B7AC81CB4B67E003BC3DD /* ViewController.h */,
+				043B7AC91CB4B67E003BC3DD /* ViewController.m */,
+				043B7ACB1CB4B67E003BC3DD /* Main.storyboard */,
+				043B7ACE1CB4B67E003BC3DD /* Assets.xcassets */,
+				043B7AD01CB4B67E003BC3DD /* LaunchScreen.storyboard */,
+				043B7AD31CB4B67E003BC3DD /* Info.plist */,
+				043B7AC21CB4B67E003BC3DD /* Supporting Files */,
+			);
+			path = CADisplayLinkDemo;
+			sourceTree = "<group>";
+		};
+		043B7AC21CB4B67E003BC3DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043B7AC31CB4B67E003BC3DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043B7ADB1CB4B67E003BC3DD /* CADisplayLinkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				043B7ADC1CB4B67E003BC3DD /* CADisplayLinkDemoTests.m */,
+				043B7ADE1CB4B67E003BC3DD /* Info.plist */,
+			);
+			path = CADisplayLinkDemoTests;
+			sourceTree = "<group>";
+		};
+		043B7AE61CB4B67E003BC3DD /* CADisplayLinkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043B7AE71CB4B67E003BC3DD /* CADisplayLinkDemoUITests.m */,
+				043B7AE91CB4B67E003BC3DD /* Info.plist */,
+			);
+			path = CADisplayLinkDemoUITests;
+			sourceTree = "<group>";
+		};
+		043B7AF51CB4B692003BC3DD /* temp-image */ = {
+			isa = PBXGroup;
+			children = (
+				043B7AF61CB4B692003BC3DD /* back2.jpg */,
+				043B7AF71CB4B692003BC3DD /* bird */,
+			);
+			path = "temp-image";
+			sourceTree = "<group>";
+		};
+		043B7AF71CB4B692003BC3DD /* bird */ = {
+			isa = PBXGroup;
+			children = (
+				043B7AF81CB4B692003BC3DD /* DOVE 0.png */,
+				043B7AF91CB4B692003BC3DD /* DOVE 9.png */,
+				043B7AFA1CB4B692003BC3DD /* DOVE 10.png */,
+				043B7AFB1CB4B692003BC3DD /* DOVE 11.png */,
+				043B7AFC1CB4B692003BC3DD /* DOVE 12.png */,
+				043B7AFD1CB4B692003BC3DD /* DOVE 13.png */,
+				043B7AFE1CB4B692003BC3DD /* DOVE 14.png */,
+				043B7AFF1CB4B692003BC3DD /* DOVE 15.png */,
+				043B7B001CB4B692003BC3DD /* DOVE 16.png */,
+				043B7B011CB4B692003BC3DD /* DOVE 17.png */,
+				043B7B021CB4B692003BC3DD /* DOVE 1.png */,
+				043B7B031CB4B692003BC3DD /* DOVE 2.png */,
+				043B7B041CB4B692003BC3DD /* DOVE 3.png */,
+				043B7B051CB4B692003BC3DD /* DOVE 4.png */,
+				043B7B061CB4B692003BC3DD /* DOVE 5.png */,
+				043B7B071CB4B692003BC3DD /* DOVE 6.png */,
+				043B7B081CB4B692003BC3DD /* DOVE 7.png */,
+				043B7B091CB4B692003BC3DD /* DOVE 8.png */,
+				043B7B0A1CB4B692003BC3DD /* player.png */,
+			);
+			path = bird;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043B7ABE1CB4B67E003BC3DD /* CADisplayLinkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043B7AEC1CB4B67E003BC3DD /* Build configuration list for PBXNativeTarget "CADisplayLinkDemo" */;
+			buildPhases = (
+				043B7ABB1CB4B67E003BC3DD /* Sources */,
+				043B7ABC1CB4B67E003BC3DD /* Frameworks */,
+				043B7ABD1CB4B67E003BC3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CADisplayLinkDemo;
+			productName = CADisplayLinkDemo;
+			productReference = 043B7ABF1CB4B67E003BC3DD /* CADisplayLinkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043B7AD71CB4B67E003BC3DD /* CADisplayLinkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043B7AEF1CB4B67E003BC3DD /* Build configuration list for PBXNativeTarget "CADisplayLinkDemoTests" */;
+			buildPhases = (
+				043B7AD41CB4B67E003BC3DD /* Sources */,
+				043B7AD51CB4B67E003BC3DD /* Frameworks */,
+				043B7AD61CB4B67E003BC3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043B7ADA1CB4B67E003BC3DD /* PBXTargetDependency */,
+			);
+			name = CADisplayLinkDemoTests;
+			productName = CADisplayLinkDemoTests;
+			productReference = 043B7AD81CB4B67E003BC3DD /* CADisplayLinkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043B7AE21CB4B67E003BC3DD /* CADisplayLinkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043B7AF21CB4B67E003BC3DD /* Build configuration list for PBXNativeTarget "CADisplayLinkDemoUITests" */;
+			buildPhases = (
+				043B7ADF1CB4B67E003BC3DD /* Sources */,
+				043B7AE01CB4B67E003BC3DD /* Frameworks */,
+				043B7AE11CB4B67E003BC3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043B7AE51CB4B67E003BC3DD /* PBXTargetDependency */,
+			);
+			name = CADisplayLinkDemoUITests;
+			productName = CADisplayLinkDemoUITests;
+			productReference = 043B7AE31CB4B67E003BC3DD /* CADisplayLinkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043B7AB71CB4B67E003BC3DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com;
+				TargetAttributes = {
+					043B7ABE1CB4B67E003BC3DD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					043B7AD71CB4B67E003BC3DD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 043B7ABE1CB4B67E003BC3DD;
+					};
+					043B7AE21CB4B67E003BC3DD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 043B7ABE1CB4B67E003BC3DD;
+					};
+				};
+			};
+			buildConfigurationList = 043B7ABA1CB4B67E003BC3DD /* Build configuration list for PBXProject "CADisplayLinkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043B7AB61CB4B67E003BC3DD;
+			productRefGroup = 043B7AC01CB4B67E003BC3DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043B7ABE1CB4B67E003BC3DD /* CADisplayLinkDemo */,
+				043B7AD71CB4B67E003BC3DD /* CADisplayLinkDemoTests */,
+				043B7AE21CB4B67E003BC3DD /* CADisplayLinkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043B7ABD1CB4B67E003BC3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043B7AD21CB4B67E003BC3DD /* LaunchScreen.storyboard in Resources */,
+				043B7ACF1CB4B67E003BC3DD /* Assets.xcassets in Resources */,
+				043B7B1C1CB4B692003BC3DD /* DOVE 7.png in Resources */,
+				043B7B141CB4B692003BC3DD /* DOVE 16.png in Resources */,
+				043B7B1E1CB4B692003BC3DD /* player.png in Resources */,
+				043B7B151CB4B692003BC3DD /* DOVE 17.png in Resources */,
+				043B7ACD1CB4B67E003BC3DD /* Main.storyboard in Resources */,
+				043B7B131CB4B692003BC3DD /* DOVE 15.png in Resources */,
+				043B7B0E1CB4B692003BC3DD /* DOVE 10.png in Resources */,
+				043B7B121CB4B692003BC3DD /* DOVE 14.png in Resources */,
+				043B7B191CB4B692003BC3DD /* DOVE 4.png in Resources */,
+				043B7B1D1CB4B692003BC3DD /* DOVE 8.png in Resources */,
+				043B7B161CB4B692003BC3DD /* DOVE 1.png in Resources */,
+				043B7B0D1CB4B692003BC3DD /* DOVE 9.png in Resources */,
+				043B7B0C1CB4B692003BC3DD /* DOVE 0.png in Resources */,
+				043B7B101CB4B692003BC3DD /* DOVE 12.png in Resources */,
+				043B7B111CB4B692003BC3DD /* DOVE 13.png in Resources */,
+				043B7B0B1CB4B692003BC3DD /* back2.jpg in Resources */,
+				043B7B1A1CB4B692003BC3DD /* DOVE 5.png in Resources */,
+				043B7B181CB4B692003BC3DD /* DOVE 3.png in Resources */,
+				043B7B171CB4B692003BC3DD /* DOVE 2.png in Resources */,
+				043B7B1B1CB4B692003BC3DD /* DOVE 6.png in Resources */,
+				043B7B0F1CB4B692003BC3DD /* DOVE 11.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043B7AD61CB4B67E003BC3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043B7AE11CB4B67E003BC3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043B7ABB1CB4B67E003BC3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043B7ACA1CB4B67E003BC3DD /* ViewController.m in Sources */,
+				043B7AC71CB4B67E003BC3DD /* AppDelegate.m in Sources */,
+				043B7AC41CB4B67E003BC3DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043B7AD41CB4B67E003BC3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043B7ADD1CB4B67E003BC3DD /* CADisplayLinkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043B7ADF1CB4B67E003BC3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043B7AE81CB4B67E003BC3DD /* CADisplayLinkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043B7ADA1CB4B67E003BC3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043B7ABE1CB4B67E003BC3DD /* CADisplayLinkDemo */;
+			targetProxy = 043B7AD91CB4B67E003BC3DD /* PBXContainerItemProxy */;
+		};
+		043B7AE51CB4B67E003BC3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043B7ABE1CB4B67E003BC3DD /* CADisplayLinkDemo */;
+			targetProxy = 043B7AE41CB4B67E003BC3DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043B7ACB1CB4B67E003BC3DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043B7ACC1CB4B67E003BC3DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043B7AD01CB4B67E003BC3DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043B7AD11CB4B67E003BC3DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043B7AEA1CB4B67E003BC3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043B7AEB1CB4B67E003BC3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043B7AED1CB4B67E003BC3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CADisplayLinkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JTLZ.CADisplayLinkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		043B7AEE1CB4B67E003BC3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CADisplayLinkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JTLZ.CADisplayLinkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		043B7AF01CB4B67E003BC3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CADisplayLinkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JTLZ.CADisplayLinkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CADisplayLinkDemo.app/CADisplayLinkDemo";
+			};
+			name = Debug;
+		};
+		043B7AF11CB4B67E003BC3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CADisplayLinkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JTLZ.CADisplayLinkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CADisplayLinkDemo.app/CADisplayLinkDemo";
+			};
+			name = Release;
+		};
+		043B7AF31CB4B67E003BC3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CADisplayLinkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JTLZ.CADisplayLinkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CADisplayLinkDemo;
+			};
+			name = Debug;
+		};
+		043B7AF41CB4B67E003BC3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CADisplayLinkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JTLZ.CADisplayLinkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CADisplayLinkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043B7ABA1CB4B67E003BC3DD /* Build configuration list for PBXProject "CADisplayLinkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043B7AEA1CB4B67E003BC3DD /* Debug */,
+				043B7AEB1CB4B67E003BC3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043B7AEC1CB4B67E003BC3DD /* Build configuration list for PBXNativeTarget "CADisplayLinkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043B7AED1CB4B67E003BC3DD /* Debug */,
+				043B7AEE1CB4B67E003BC3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		043B7AEF1CB4B67E003BC3DD /* Build configuration list for PBXNativeTarget "CADisplayLinkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043B7AF01CB4B67E003BC3DD /* Debug */,
+				043B7AF11CB4B67E003BC3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		043B7AF21CB4B67E003BC3DD /* Build configuration list for PBXNativeTarget "CADisplayLinkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043B7AF31CB4B67E003BC3DD /* Debug */,
+				043B7AF41CB4B67E003BC3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043B7AB71CB4B67E003BC3DD /* Project object */;
+}
